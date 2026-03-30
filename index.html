@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حاسبة البكالوريا الجزائرية ⭐</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-animation">
+        <div class="stars"></div>
+        <div class="stars2"></div>
+        <div class="stars3"></div>
+    </div>
+
+    <div class="container">
+        <!-- الهيدر الفاخر -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h1>حاسبة <span class="highlight">البكالوريا</span></h1>
+                </div>
+                <p>احسب معدلك بدقة تامة واعرف ذكرتك الرسمية</p>
+            </div>
+        </header>
+
+        <div class="main-card">
+            <!-- اختيار الشعبة -->
+            <div class="sh3ba-selector">
+                <div class="sh3ba active" data-sh3ba="tajribi">
+                    <i class="fas fa-flask"></i>
+                    <span>علوم تجريبية</span>
+                </div>
+                <div class="sh3ba" data-sh3ba="riyada">
+                    <i class="fas fa-calculator"></i>
+                    <span>رياضيات</span>
+                </div>
+                <div class="sh3ba" data-sh3ba="adaab">
+                    <i class="fas fa-book"></i>
+                    <span>آداب وفلسفة</span>
+                </div>
+            </div>
+
+            <!-- المواد -->
+            <div class="mawad-container">
+                <div class="mawad tajribi active">
+                    <div class="matiere-group">
+                        <h3><i class="fas fa-brain"></i> المواد الأساسية</h3>
+                        <div class="matiere-row">
+                            <div class="matiere">
+                                <label>الرياضيات <span class="coef">(×7)</span></label>
+                                <div class="input-group">
+                                    <input type="number" class="note" id="math" min="0" max="20" step="0.25">
+                                    <span class="unit">/20</span>
+                                </div>
+                            </div>
+                            <div class="matiere">
+                                <label>الفيزياء <span class="coef">(×6)</span></label>
+                                <div class="input-group">
+                                    <input type="number" class="note" id="physique" min="0" max="20" step="0.25">
+                                    <span class="unit">/20</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="matiere-row">
+                            <div class="matiere">
+                                <label>العلوم الطبيعية <span class="coef">(×5)</span></label>
+                                <div class="input-group">
+                                    <input type="number" class="note" id="svt" min="0" max="20" step="0.25">
+                                    <span class="unit">/20</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="matiere-group">
+                        <h3><i class="fas fa-book-open"></i> المواد الأدبية</h3>
+                        <div class="matiere-row">
+                            <div class="matiere">
+                                <label>اللغة العربية <span class="coef">(×3)</span></label>
+                                <div class="input-group">
+                                    <input type="number" class="note" id="arabe" min="0" max="20" step="0.25">
+                                    <span class="unit">/20</span>
+                                </div>
+                            </div>
+                            <div class="matiere">
+                                <label>الفلسفة <span class="coef">(×3)</span></label>
+                                <div class="input-group">
+                                    <input type="number" class="note" id="philo" min="0" max="20" step="0.25">
+                                    <span class="unit">/20</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="matiere-group">
+                        <h3><i class="fas fa-globe"></i> اللغات</h3>
+                        <div class="matiere-row">
+                            <div class="matiere">
+                                <label>اللغة الإنجليزية <span class="coef">(×2)</span></label>
+                                <div class="input-group">
+                                    <input type="number" class="note" id="anglais" min="0" max="20" step="0.25">
+                                    <span class="unit">/20</span>
+                                </div>
+                            </div>
+                            <div class="matiere">
+                                <label>اللغة الفرنسية <span class="coef">(×2)</span></label>
+                                <div class="input-group">
+                                    <input type="number" class="note" id="francais" min="0" max="20" step="0.25">
+                                    <span class="unit">/20</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="matiere-group">
+                        <h3><i class="fas fa-laptop"></i> مواد إضافية</h3>
+                        <div class="matiere-row">
+                            <div class="matiere">
+                                <label>تكنولوجيا الإعلام <span class="coef">(×2)</span></label>
+                                <div class="input-group">
+                                    <input type="number" class="note" id="ti" min="0" max="20" step="0.25">
+                                    <span class="unit">/20</span>
+                                </div>
+                            </div>
+                            <div class="matiere">
+                                <label>تربية إسلامية <span class="coef">(×1)</span></label>
+                                <div class="input-group">
+                                    <input type="number" class="note" id="islam" min="0" max="20" step="0.25">
+                                    <span class="unit">/20</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- زر الحساب -->
+            <button class="btn-calculer" onclick="calculerMoyenne()">
+                <i class="fas fa-calculator"></i>
+                <span>احسب المعدل النهائي</span>
+                <div class="btn-ripple"></div>
+            </button>
+
+            <!-- النتيجة -->
+            <div id="resultat" class="resultat-card"></div>
+        </div>
+
+        <!-- معلومات إضافية -->
+        <div class="info-card">
+            <i class="fas fa-info-circle"></i>
+            <span>المعدل محسوب حسب نظام الوزن الرسمي للبكالوريا الجزائرية 2024</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
